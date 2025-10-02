@@ -375,6 +375,9 @@
         
         // Panggil fungsi timestamp saat halaman dimuat
         updateTimestamp();
+        
+        // --- INI MODIFIKASI UTAMA: UPDATE REALTIME SETIAP DETIK (1000ms) ---
+        setInterval(updateTimestamp, 1000); 
 
 
         // --- FUNGSI MODAL ---
